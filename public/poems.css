@@ -1,0 +1,43 @@
+body{
+    
+	border: 20px solid green;
+	padding: 20px; 
+	max-width: 700px;
+	width: 80%; /* when shrinking page, to keep it steady  */ 
+	margin: 60px auto; 
+	font-family: Georgia; 
+
+}
+
+
+.quote{
+    
+	border-left: 5px solid green;
+	padding-left: 5px; /* for spacing*/
+}
+
+.date{
+	color: blue;
+	letter-spacing: 10rem; /*refers to the same element, 
+							em would make size 2x bigger*/
+	text-transform: uppercase;
+	letter-spacing: 0.2rem; 
+}
+
+/*hr { /*hr code from online. csstricks*/
+    /*overflow: visible; /* For IE 
+/*    padding: 0;*/
+/*    border: none;*/
+/*    border-top: medium double #333;*/
+/*    color: #333;*/
+/*    text-align: center;*/
+/*}*/
+/*hr:after {*/
+/*    content: "§";*/
+/*    display: inline-block;*/
+/*    position: relative;*/
+/*    top: -0.7em;*/
+/*    font-size: 1.5em;*/
+/*    padding: 0 0.25em;*/
+/*    background: white;*/
+/*}*/
